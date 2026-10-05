@@ -2,7 +2,7 @@ import logging
 from telegram import LabeledPrice, Update
 from telegram.ext import Application, CommandHandler, PreCheckoutQueryHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "METS_TON_TOKEN_ICI"
+TOKEN = 8676708782:AAFUdAW8g_HHhA5wW2s08_1vtXiZu3cIHe8
 AFF = "https://t.me/stars_klickston_bot?start=_tgr_o6gaIhc2NGU0"
 L10 = "https://drive.google.com/drive/folders/1XXX"
 L50 = "https://drive.google.com/drive/folders/1XXX"
