@@ -20,7 +20,7 @@ def run_flask():
 def main():
     application = Application.builder().token(TOKEN).build()
     application.add_handler(CommandHandler("start", start))
-    application.run_polling()
+    application.run_polling(drop_pending_updates=True)
 
 if __name__ == '__main__':
     threading.Thread(target=run_flask, daemon=True).start()
